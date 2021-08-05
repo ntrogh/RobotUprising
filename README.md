@@ -16,7 +16,7 @@ You can get the full solution through the Jupyter notebook in this repo.
 
 ## Challenge
 
-One part of the giant maze is the *THE ROOT* through which the robots need to navigate through, avoiding obstacles and finding the exit.
+One part of the giant maze is the *THE ROOT*, which the robots need to navigate through, avoiding obstacles and finding the exit.
 
 The attendees are provided a birdseye view camera, that is looking at the *THE ROOT* from above. Using this camera, the attendees could find their optimal path.
 
