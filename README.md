@@ -56,7 +56,7 @@ As stated in the [documentation](https://docs.microsoft.com/en-us/azure/cognitiv
 
 If we had multiple robots or larger objects on the track and would like to identify them, we could explore that using Custom Vision, as they are "major differences".
 
-### Use pattern matching and A* pathfinding
+### Using pattern matching and A* pathfinding
 
 ![Pattern matching with poles](TempateMatchingResult-Annotated.png)
 
