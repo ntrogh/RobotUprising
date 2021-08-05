@@ -14,7 +14,7 @@ You can get the full solution through the Jupyter notebook in this repo.
 
 ![Robot](RobotUprising_still_high.png)
 
-## Challenge
+## Hackathon Challenge
 
 One part of the giant maze is the *THE ROOT*, which the robots need to navigate through, avoiding obstacles and finding the exit.
 
@@ -22,19 +22,19 @@ The attendees are provided a birdseye view camera, that is looking at the *THE R
 
 The attendees can solve the challenge with various sensors on the robot, to navigate through the field, using Computer Vision is optional, but it grants additional 5 points for the competition.
 
-### Additional challenges
+### Technical challenges
 
 - The *THE ROOT* is placed in the middle of the hackathon field, with multiple lights around the obstacles, creating several shadows across the field.
 - Both the obstacles and the field are gray, and have several shadow around them, making it sometimes hard to recognize the root of the pole.
 - There is only one camera above the large *THE ROOT* area, meaning you'll need to take into account the perspective when looking at poles further from the center point.
 - The camera is positioned in a way that it's not aligned to the shape and entrance/exit of the track. So you'll need to take into account the orientation of the video-feed vs. the track.
-- In hackathons you always have issues with connectivity, with so many devices and personal hotspots around, there are bound to be issues with the connectivity.
+- Network connectivity can be unstable due to many devices and personal hotspots around.
 
 **Extra:** The current obstacle course is fixed, meaning the location of the poles doesn't change. We'd like to see a solution in the future, that is also able to adapt to changes in the field.
 
 ## Possible solutions
 
-There are several ways to approach this challenge. Below is a sample on how you might approach this, but it's no the only right or the only solution.
+There are several ways to approach this challenge. In this post we provide one possible solution.
 
 ### Ruling out the ready-made services (Cognitive Services and Custom Vision)
 
